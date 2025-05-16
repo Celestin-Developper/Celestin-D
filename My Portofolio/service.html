@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+          <!-- Favicon standard -->
+    <link rel="icon" type="image/png" sizes="32x32" href="image/cka-logo.png">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <!-- Optionnel : Pour compatibilité étendue -->
+    <link rel="shortcut icon" href="image/cka-logo.png" type="image/x-icon">
+    <link rel="icon" href="image/cka-logo.png" type="image/x-icon">
+
+    <title>Service</title>
+</head>
+<body class=" bg-black">
+    <nav
+        class="w-full sm:w-10/12 lg:w-8/12 mx-auto relative z-10 flex items-center justify-between bg-black/80 md:mt-10 py-4 text-white  border-b border-green-600/20 dark:border-green-600/20 shadow-lg shadow-green-400/20">
+        <div class=" p-2">
+            <img src="image/cka-logo.png" class=" md:w-24 sm:w-12 h-12" alt="">
+        </div>
+        <div class="flex-shrink-0 px-4">
+            <a href="#" class="text-xl font-bold text-gray-700">
+                <span class="px-1 bg-green-400 rounded-full animate-[ping_1.9s_linear_infinite]">C</span>
+                <span class="px-1 bg-green-400 rounded-full animate-[ping_2s_linear_infinite]">E</span>
+                <span class="px-1 bg-green-400 rounded-full animate-[ping_2.1s_linear_infinite]">L</span>
+                <span class="px-1 bg-green-400 rounded-full animate-[ping_2.2s_linear_infinite]">E</span>
+                <span class="px-1 bg-green-400 rounded-full animate-[ping_2.3s_linear_infinite]">S</span>
+                <span class="px-1 bg-green-400 rounded-full animate-[ping_2.4s_linear_infinite]">T</span>
+                <span class="px-1 bg-green-400 rounded-full animate-[ping_2.4s_linear_infinite]">I</span>
+                <span class="px-1 bg-green-400 rounded-full animate-[ping_2.4s_linear_infinite]">N</span>
+            </a>
+        </div>
+        <ul
+            class="hidden text-lg md:flex w-1/2 items-center justify-between gap-4 py-2 cursor-pointer md:px-10 border-r-2 border-l-2 border-gray-800 dark:border-gray-300">
+            <li class="rounded-b hover:border-b-[3px] hover:border-green-600"><a href="index.html">Home</a></li>
+            <li class="rounded-b border-b-[3px] border-green-600"><a href="service.html">Service</a></li>
+            <li class="rounded-b hover:border-b-[3px] hover:border-green-600"><a href="about.html">About</a></li>
+            <li class="rounded-b hover:border-b-[3px] hover:border-green-600"><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="hidden md:flex justify-start pl-4 pr-2 py-1">
+            <a href="mailto:celestinkibiswa3@gmail.com"
+                class="bg-green-600 text-white px-6 py-2 rounded-md relative overflow-hidden group">
+                <span
+            class="absolute top-0 left-0 w-full h-full bg-white opacity-20 transform -skew-x-12 -translate-x-full group-hover:translate-x-0 transition duration-500"
+          ></span>
+                <span class="relative z-10 font-bold text-gray-800">Hire Me</span>
+            </a>
+        </div>
+
+        <!-- TOGGLE BUTTONS -->
+        <div class="flex justify-end items-center md:hidden pr-4">
+            <button class="cursor-pointer text-3xl" id="nav__toggle-open">
+              <i class="uil uil-bars"></i>
+            </button>
+            <button class="cursor-pointer text-3xl hidden" id="nav__toggle-close">
+              <i class="uil uil-multiply"></i>
+            </button>
+          </div>
+
+<!-- MOBILE NAV -->
+      <ul id="mobile-nav"
+          class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out md:hidden sm:w-full w-[98%] mx-auto absolute top-[4rem] left-0 right-0 flex-col items-center gap-4 bg-black rounded-b cursor-pointer shadow shadow-green-600">
+        <li class="p-2 rounded hover:shadow hover:shadow-green-600">Home</li>
+        <li class="p-2 rounded shadow shadow-green-600"><a href="service.html">Service</a></li>
+        <li class="p-2 rounded hover:shadow hover:shadow-green-600"><a href="about.html">About</a></li>
+        <li class="p-2 rounded hover:shadow hover:shadow-green-600"><a href="contact.html">Contact</a></li>
+        <li class="p-2 rounded hover:shadow hover:shadow-green-600">
+          <button class="flex justify-start">
+            <a href="mailto:celestinkibiswa3@gmail.com"
+               class="bg-green-600 text-white px-6 py-2 rounded-md relative overflow-hidden group">
+              <span class="absolute top-0 left-0 w-full h-full bg-white opacity-20 transform -skew-x-12 -translate-x-full group-hover:translate-x-0 transition duration-500"></span>
+              <span class="relative z-10 font-bold text-gray-800">Hire Me</span>
+            </a>
+          </button>
+        </li>
+      </ul>
+    </nav>
+   
+    <section>
+        <main class="container mx-auto px-6 py-8">
+        <h1 class="text-4xl font-bold text-center text-green-600 mb-12 animate-fade-in">Our Services</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 transform transition-all duration-300 hover:scale-105 animate-fade-in" style="animation-delay: 0.1s;">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-indigo-800 dark:text-indigo-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <h2 class="text-xl font-semibold text-indigo-800 dark:text-white mb-2">Web Development</h2>
+                <p class="text-gray-600 dark:text-gray-300">Custom web applications tailored to your business needs. We use cutting-edge technologies to deliver fast, responsive, and scalable solutions.</p>
+            </div>
+
+            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 transform transition-all duration-300 hover:scale-105 animate-fade-in" style="animation-delay: 0.2s;">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-indigo-800 dark:text-indigo-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                </svg>
+                <h2 class="text-xl font-semibold text-indigo-800 dark:text-white mb-2">Mobile App Development</h2>
+                <p class="text-gray-600 dark:text-gray-300">Innovative mobile applications for iOS and Android. We create user-friendly apps that engage your audience and drive business growth.</p>
+            </div>
+
+            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 transform transition-all duration-300 hover:scale-105 animate-fade-in" style="animation-delay: 0.3s;">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-indigo-800 dark:text-indigo-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+                <h2 class="text-xl font-semibold text-indigo-800 dark:text-white mb-2">Data Analytics</h2>
+                <p class="text-gray-600 dark:text-gray-300">Turn your data into actionable insights. Our analytics services help you make informed decisions and optimize your business processes.</p>
+            </div>
+
+            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 transform transition-all duration-300 hover:scale-105 animate-fade-in" style="animation-delay: 0.4s;">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-indigo-800 dark:text-indigo-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.618 5.984A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016zM12 9v2m0 4h.01" />
+                </svg>
+                <h2 class="text-xl font-semibold text-indigo-800 dark:text-white mb-2">Cybersecurity</h2>
+                <p class="text-gray-600 dark:text-gray-300">Protect your digital assets with our comprehensive cybersecurity solutions. We offer threat detection, risk assessment, and security consulting services.</p>
+            </div>
+
+            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 transform transition-all duration-300 hover:scale-105 animate-fade-in" style="animation-delay: 0.5s;">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-indigo-800 dark:text-indigo-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+                </svg>
+                <h2 class="text-xl font-semibold text-indigo-800 dark:text-white mb-2">Cloud Solutions</h2>
+                <p class="text-gray-600 dark:text-gray-300">Leverage the power of cloud computing for your business. We provide cloud migration, management, and optimization services to enhance your IT infrastructure.</p>
+            </div>
+
+            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 transform transition-all duration-300 hover:scale-105 animate-fade-in" style="animation-delay: 0.6s;">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-indigo-800 dark:text-indigo-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5" />
+                </svg>
+                <h2 class="text-xl font-semibold text-indigo-800 dark:text-white mb-2">AI & Machine Learning</h2>
+                <p class="text-gray-600 dark:text-gray-300">Harness the power of artificial intelligence and machine learning. We develop smart solutions that automate processes and provide valuable predictions.</p>
+            </div>
+        </div>
+    </main>
+    </section>
+    <footer class="w-full mt-10 border-t-2 pt-4 pb-8 border-gray-500">
+        <div class="flex sm:flex-row flex-col sm:justify-between items-center md:px-20 px-4">
+          <div class="flex gap-4 items-center sm:text-xl text-sm text-gray-500">
+            <a href="https://www.facebook.celestinkibiswa3@gmail.com" class="hover:text-green-400">facebook</a>
+            <a href="https://www.instagram.celestinkibiswa3@gmail.com" class="hover:text-green-400">instagram</a>
+            <a href="https://www.telegram.celestinkibiswa3@gmail.com" class="hover:text-green-400">Telegram</a>
+          </div>
+          <div class="text-lg text-gray-400">&copy;2025 Celestin CKA</div>
+        </div>
+      </footer>
+
+
+
+      <script>
+        //   ==================NAV BAR=====================
+       const navOpen = document.getElementById("nav__toggle-open");
+       const navClose = document.getElementById("nav__toggle-close");
+       const mobileNav = document.getElementById("mobile-nav");
+     
+       navOpen.addEventListener("click", () => {
+         mobileNav.classList.remove("max-h-0");
+         mobileNav.classList.add("max-h-[500px]"); // Ajuste selon la hauteur réelle
+         navOpen.classList.add("hidden");
+         navClose.classList.remove("hidden");
+       });
+     
+       navClose.addEventListener("click", () => {
+         mobileNav.classList.remove("max-h-[500px]");
+         mobileNav.classList.add("max-h-0");
+         navOpen.classList.remove("hidden");
+         navClose.classList.add("hidden");
+       });
+     </script>
+</body>
+</html>
