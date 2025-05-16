@@ -50,11 +50,13 @@ Je suis un développeur frontend (et/ou fullstack selon ton profil) passionné p
 Tu peux me contacter via :
 
 - 📧 Email : [celestinkibiswa3@gmail.com](mailto:celestinkibiswa3@gmail.com)
-- 🌐 Site Web : [Lien de ton portfolio]([https://celestin-cka.onrender.coml]) <!-- à remplacer -->
+- 📧 Email : [celestinkibiswa3@gmail.com](https://celestin-cka.onrender.coml)
+- 🌐 Site Web : [https://celestin-cka.onrender.coml](https://celestin-cka.onrender.coml) <!-- à remplacer -->
 
 
 ---
 
+🌐 Site Web : ([https://celestin-cka.onrender.coml]) 
 
 
 
